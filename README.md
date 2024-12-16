@@ -12,3 +12,18 @@ Machine Learning Model: The model uses a combination of CNN (Convolutional Neura
 Predictions: Outputs predicts the closing price
 
 Sliding Window: A time-series sliding window approach to feed sequences of past prices into the model for predictions for temporal dependencies
+
+
+Prerequisites:
+
+Python (3.0 or later version)
+
+numpy
+
+pandas
+
+tensorflow
+
+sklearn
+
+
