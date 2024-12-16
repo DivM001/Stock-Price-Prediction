@@ -19,7 +19,7 @@ from tensorflow.keras.regularizers import l2
 from keras import callbacks
 
 #Getting the data
-ticker = "RELIANCE.NS"
+ticker = "TATAMOTORS.NS"
 pricedata = yf.download(ticker, start='2022-01-01', auto_adjust=True)
 plt.plot(pricedata['Close'])
 
